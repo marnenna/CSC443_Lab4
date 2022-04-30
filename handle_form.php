@@ -28,7 +28,7 @@
     if(!(strlen($_POST["email"]) >0)){
 
         $_POST["email"] = null;
-        echo '<p><b> You Forgot to Enter Your Emails! </b></p>'
+        echo '<p><b> You Forgot to Enter Your Emails! </b></p>';
     }
 
     if (isset ($_POST["gender"])) {
