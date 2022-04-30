@@ -15,9 +15,10 @@
                 $total = ($quantity * $price) * ($taxrate +1);
                 $total = number_format ($total,2);
                 echo "You are purchasing <b>" .$_POST["quantity"] .
-                "</b> widgets at a cost of <b>". $_POST["price"] .
+                "</b> widgets at a cost of <b>" .$_POST["price"] .
                 "</b> each. With tax the total comes to <b>". $total ."</b>.\n";# code...
-            } else {
+            } 
+            else {
                 echo "<p><b> Please enter a valid quantity to purchase! </b></p>";# code...
             }
         } else {
@@ -25,7 +26,7 @@
         }
         
     } else {
-        "<p><b> You have accessed this page inappropriately! </b></p>";# code...
+        echo "<p><b> You have accessed this page inappropriately! </b></p>";# code...
     }
 
     ?>
