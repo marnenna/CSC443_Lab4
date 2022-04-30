@@ -9,6 +9,7 @@
 <body>
     <?php include("header.inc"); ?>
     <br> <br>
-    <a href="secondpage.php"> Go to Second Page </a>
+    <a href="mainpage.php"> Return to Main Page </a>
+
 </body>
 </html>
