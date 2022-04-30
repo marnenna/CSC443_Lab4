@@ -7,7 +7,7 @@
     <title>Cost Calculator</title>
 </head>
 <body>
-    <?php #script handle calsulator
+    <?php #script handle calculator
 
     if (isset($source)) {
         if ($source == 'calculator.html') {
@@ -27,7 +27,6 @@
     } else {
         "<p><b> You have accessed this page inappropriately! </b></p>";# code...
     }
-    
 
     ?>
 </body>
