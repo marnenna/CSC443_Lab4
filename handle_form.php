@@ -36,7 +36,7 @@
             $message = '<b><p> Good Day, Sir </p></b>';
         }# code...
 
-        if($_POST["gender"] == 'G'){
+        if($_POST["gender"] == 'F'){
             $message = '<b><p> Good Day, Madam </p></b>';
         }# code...
         
@@ -46,7 +46,7 @@
     }
     
     if ($_POST["name"] && $_POST["comments"] && $_POST["email"] && $_POST["gender"]){
-        echo "Thank you," .$_POST["name"]." for the following somments: <br/> <tt>" .
+        echo "Thank you, " .$_POST["name"]." for the following comments: <br/> <tt>" .
         $_POST["comments"]."</tt><p> We will reply to you at <i>" . $_POST["email"] ."</i></p>";
         echo $message;
     }
