@@ -47,7 +47,7 @@
     
     if ($_POST["name"] && $_POST["comments"] && $_POST["email"] && $_POST["gender"]){
         echo "Thank you," .$_POST["name"]." for the following somments: <br/> <tt>" .
-        $_POST["comments"]."</tt><p> We will reply to you at <i>" . $_POST["email"] .
+        $_POST["comments"]."</tt><p> We will reply to you at <i>" . $_POST["email"] ;
         echo $message;
     }
     
